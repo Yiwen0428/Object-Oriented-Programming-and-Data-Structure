@@ -1,0 +1,57 @@
+This is Ege, grading your A1. My comments come after the info on correctness.
+
+Starting correctness testing of A1, PhD.
+
+Testing assertions for all preconditions.
+Calling isYoungerThan with parameter p null did not cause an AssertionError
+End of test of assertions for preconditions: 4 out of 5
+
+Testing constructor 1 and getters.
+End test of first constructor and getters: 11 out of 11 pts.
+
+Testing two setter methods.
+End test of setter methods: 14 out of 14 pts.
+
+Testing constructor 2.
+End test of second constructor: 5 out of 5 pts.
+
+Testing constructor 3.
+End test of second constructor: 6 out of 6 pts.
+
+Testing comparison methods.
+newPhD3.isPhDSibling(null) gave null-pointer exception.
+isPhDSibling errors: 1. Points: 6 out of 7
+
+isYoungerThan errors: 0. Points: 7 out of 7
+
+
+ folders involved:
+gries: Gries, true, date: 1966.6, advisees: 4, first advisor: none, second advisor: none
+dennis: Dennis, true, date: 1966.8, advisees: 2, first advisor: none, second advisor: none
+owicki: Owicki, false, date: 2091.4, advisees: 1, first advisor: gries, second advisor: none
+newPhD1: NewPhD1, false, date: 2091.4, advisees: 1, first advisor: gries, second advisor: hartmanis
+newPhD2: NewPhD2, false, date: 2091.4, advisees: 0, first advisor: dennis, second advisor: gries
+newPhD3: NewPhD3, false, date: 2091.4, advisees: 0, first advisor: hartmanis, second advisor: gries
+newPhD4: NewPhD3, false, date: 2091.4, advisees: 0, first advisor: owicki, second advisor: newPhD1
+End test of comparison methods: 13 out of 14.
+
+=================================================
+
+Below, "CheckList" refers to the checklist in part 7 of the A1 handout. pp. 5..6.
+
+26. Deduction 0. You use keyword "this". unnecessarily. Don't put in unnecessary noise. Keep things as   simple as possible.
+
+
+Correctness                                            53 out of  55
+(a) Lines short enough, blanks before methods:         05 out of  05
+(b) Class invariant:                                   10 out of  10
+(c) Method names, parameters:                          05 out of  05
+(d) Specifications complete, used Javadoc comments:    10 out of  10
+(e) Assert statements --checked by grading program
+(f) Checked javadoc:                                   05 out of  05
+(g) Testing methods:                                   10 out of  10
+Total:                                                98 out of 100
+Deductions:                                           00
+Total:                                                98 out of 100
+
+
